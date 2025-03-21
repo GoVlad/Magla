@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ro">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magla</title>
+  <link rel="icon" href="img/1000008989.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+
+<body>
+
+  <header>
+    <button class="hamburger-menu" id="hamburger" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </button>
+    <a href="#" class="logo">Magla<span>.</span></a>
+    <nav class="navbar">
+      <a href="#acasă">Acasă</a>
+      <a href="#desprenoi">Despre Noi</a>
+      <a href="#contacte">Contacte</a>
+      <details class="details-content">
+        <summary>Catalog</summary>
+        <a href="pages/curatenie.html">Curățenie</a>
+        <a href="pages/bucatarie.html">Bucătărie</a>
+        <a href="pages/jucarii.html">Jucării</a>
+        <a href="pages/constructii.html">Construcție</a>
+        <a href="pages/vopsea.html">Vopsea</a>
+        <a href="pages/diverse.html">Diverse</a>
+      </details>
+    </nav>
+    <div class="icons">
+      <a href="#" class="fas fa-heart"></a>
+      <a href="#" class="fas fa-shopping-cart"></a>
+      <a href="pages/login.html" class="fas fa-user"></a>
+    </div>
+  </header>
+
+  <section class="acasă" id="acasă">
+    <div class="content">
+      <h3>Construim împreună casa visurilor tale!</h3>
+    </div>
+    <img class="contain" src="images/magazin.jpg" alt="Magazin">
+  </section>
+
+  <section id="desprenoi">
+    <h2 class="heading">Despre Noi</h2>
+    <div class="content">
+      <h3>De ce noi?</h3>
+      <p>Avem prețuri competitive și oferte atractive, astfel încât clienții noștri preferă să cumpere de la noi decât
+        din alte magazine din oraș. Oferim o gamă variată de produse, de la ciment și vopsele, până la unelte, mobilier
+        de grădină și electrocasnice mici, asigurându-ne că clienții găsesc tot ce le trebuie într-un singur loc. Avem
+        mereu pe stoc produsele esențiale, ceea ce le oferă încredere clienților noștri că vor găsi ce au nevoie fără să
+        piardă timp. De asemenea, oferim livrare la domiciliu, facilitând viața celor care nu au transport sau care
+        cumpără produse voluminoase. Oferim sfaturi și consultanță profesională, ajutându-i pe clienți să aleagă
+        materialele potrivite și să înțeleagă ce au nevoie pentru proiectele lor. Susținem afacerile locale,
+        asigurându-ne că banii rămân în comunitate, ceea ce îi face pe mulți să prefere să cumpere de la un localnic
+        decât de la un lanț mare de magazine.</p>
+    </div>
+  </section>
+
+  <div class="produse">
+    <a target="_blank" href="images/delivery.jpg">
+      <img src="images/delivery.jpg" alt="Livrare gratuită">
+      <h5>Livrare gratuită</h5>
+      <h3>la toate comenzile</h3>
+    </a>
+
+    <a target="_blank" href="images/moneyback.jpg">
+      <img src="images/moneyback.jpg" alt="Returnare bani">
+      <h5>Return timp de 10 zile</h5>
+      <h3>banii returnați garantat</h3>
+    </a>
+
+    <a target="_blank" href="images/gift.jpg">
+      <img src="images/gift.jpg" alt="Oferte și cadouri">
+      <h5>Oferte și cadouri</h5>
+      <h3>la toate comenzile</h3>
+    </a>
+
+    <a target="_blank" href="images/securizat.jpg">
+      <img src="images/securizat.jpg" alt="Plătire securizată">
+      <h5>Plătire securizată</h5>
+      <h3>protejată de Paynet</h3>
+    </a>
+  </div>
+
+  <section class="contact" id="contacte">
+    <h1 class="heading">Pentru întrebări</h1>
+    <div class="row">
+      <form action="">
+        <input type="text" placeholder="Nume, prenume" class="box">
+        <input type="email" placeholder="Email" class="box">
+        <input type="number" placeholder="Număr de telefon" class="box">
+        <textarea name="" class="box" placeholder="Mesaj" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="Trimite mesajul" class="btn">
+      </form>
+      <div class="image">
+        <img src="https://sms.md/wp-content/uploads//2020/07/tehnic.svg" alt="Contact Image">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <h3>Contacteaza-ne!</h3>
+        <p>Email: serghei.magla1@gmail.com</p>
+        <p>Telefon: 0263 63 453</p>
+        <p>Adresa: or. Iargara, r. Leova, str. 31 august 3</p>
+      </div>
+      <div class="bottom-bar">
+        <p>&copy; 2025 Magla. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
